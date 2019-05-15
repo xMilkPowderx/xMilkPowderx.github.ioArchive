@@ -17,6 +17,27 @@ type: article
     <section class="article__sharing d-print-none">{%- include sharing.html -%}</section>
   {%- endif -%}
 
+  <!-- Gitalk start  -->
+
+<!-- Link Gitalk files  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"/></script>
+<div id="gitalk-container"></div>     <script type="text/javascript">
+    var gitalk = new Gitalk({
+
+        // gitalk's main params
+		clientID: `Github Application clientID`,
+		clientSecret: `Github Application clientSecret`,
+		repo: `your repo-name`,
+		owner: 'Github username',
+		admin: ['Github username'],
+		id: 'identifier for a page，gitalk will create issues with this id',
+    
+    });
+    gitalk.render('gitalk-container');
+</script>
+<!-- Gitalk end -->
+  
   <div class="d-print-none">
     {%- include article-footer.html -%}
     {%- include article-section-navigator.html -%}

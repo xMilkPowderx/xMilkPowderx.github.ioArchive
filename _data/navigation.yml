@@ -1,5 +1,12 @@
 header:
   - titles:
+      en      : &EN       Home
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+    url: /index.html
+  - titles:
       en      : &EN       Archive
       en-GB   : *EN
       en-US   : *EN
