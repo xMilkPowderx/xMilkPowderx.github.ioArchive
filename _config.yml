@@ -22,7 +22,7 @@ url     : # the base hostname & protocol for your site e.g. https://www.someone.
 baseurl : # does not include hostname
 title   : MilkPowder
 description: > # this means to ignore newlines until "Language & timezone"
-  A Blog for my random stuff
+  Your Site Description
 
 
 ## => Language and Timezone
@@ -34,7 +34,7 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 ## => Author and Social
 ##############################
 author:
-  type      : person # "person" (default), "organization"
+  type      : # "person" (default), "organization"
   name      : MilkPowder
   url       :
   avatar    : # path or url of avatar image (square)
@@ -123,6 +123,16 @@ comments:
   ## Disqus
   disqus:
     shortname: # the Disqus shortname for the site
+
+  ## Gitalk
+  # please refer to https://github.com/gitalk/gitalk for more info.
+  gitalk:
+    clientID    : # GitHub Application Client ID
+    clientSecret: # GitHub Application Client Secret
+    repository  : # GitHub repo
+    owner       : # GitHub repo owner
+    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+      # - your GitHub Id
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
