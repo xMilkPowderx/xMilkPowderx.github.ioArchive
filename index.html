@@ -3,3 +3,26 @@ layout: home
 # articles:
 #   excerpt_type: html
 ---
+
+
+  <!-- Gitalk start  -->
+
+<!-- Link Gitalk files  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"/></script>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+
+        // gitalk's main params
+		clientID: "8887e3dd808bdd5abf76",
+		clientSecret: "a942eec966c8cb6975dcef403745dfcd6b65e0bf",
+		repo: "xMilkPowderx.github.io",
+		owner: "xMilkPowderx",
+		admin: ['xMilkPowderx'],
+		id: 'window.location.hash',
+		distractionFreeMode: false
+    });
+    gitalk.render('gitalk-container');
+</script>
+<div id="gitalk-container"></div>     
+<!-- Gitalk end -->
