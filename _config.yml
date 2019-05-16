@@ -129,7 +129,7 @@ comments:
   gitalk:
     clientID    : 8887e3dd808bdd5abf76
     clientSecret: a942eec966c8cb6975dcef403745dfcd6b65e0bf
-    repository  : xMilkPowderx/xMilkPowderx.github.io
+    repository  : xMilkPowderx.github.io
     owner       : xMilkPowderx
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       - xMilkPowderx
