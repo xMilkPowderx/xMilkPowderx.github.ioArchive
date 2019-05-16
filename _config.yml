@@ -36,7 +36,7 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 author:
   type      : # "person" (default), "organization"
   name      : MilkPowder
-  url       :
+  url       : https://xmilkpowderx.github.io/
   avatar    : # path or url of avatar image (square)
   bio       : 
   email     :
@@ -49,7 +49,7 @@ author:
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  github    : xMilkPowderx
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
@@ -84,14 +84,14 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: # false (default), true
-mathjax_autoNumber: # false (default), true
+mathjax: # true (default), true
+mathjax_autoNumber: # true (default), true
 
 ## Mermaid
-mermaid: # false (default), true
+mermaid: # true (default), true
 
 ## Chart
-chart: # false (default), true
+chart: # true (default), true
 
 
 ## => Paginate
