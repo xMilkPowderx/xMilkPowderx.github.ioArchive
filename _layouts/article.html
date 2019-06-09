@@ -9,6 +9,24 @@ key: gitalk
   source0=layout.sharing source1=page.sharing -%}
 {%- assign _sharing = __return -%}
 
+<style>
+ul {
+  list-style: none; /* Remove HTML bullets */
+  padding: 0;
+  margin: 0;
+}
+
+li { 
+  padding-left: 16px; 
+}
+
+li::before {
+  content: "-"; /* Insert content that looks like bullets */
+  padding-right: 8px;
+  color: black; /* Or a color you prefer */
+}
+</style>
+
 <div class="layout--article">
   {%- include article/top/custom.html -%}
 
